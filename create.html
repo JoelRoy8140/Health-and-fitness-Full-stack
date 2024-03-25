@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health and Fitness Assistant</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+
+    <main>
+        
+        <h1>Health and Fitness Assistant</h1>
+        <h2>CREATE A NEW ACCOUNT</h2>
+        <h3>Please Enter Your Details For Sign Up</h3>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <span class="error-message"></span>
+            <label for="mobile-no">Mobile No:</label>
+            <input type="tel" name="mobile-Number" pattern="[7-9]{1}[0-9]{9}" title="Phone number with 7-9 and remaing 9 digit with 0-9" placeholder="Enter Mobile Number">
+            <span class="error-message"></span>
+            <div class="gender"><b>gender</b>
+                <br>
+                <label for="male" id="male">Male:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="female" id="female">Female:</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+            </div>
+                <label for="dob">DOB:</label>
+            <input type="date" id="dob" name="dob">
+            <span class="error-message"></span>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <span class="error-message"></span>
+            <button type="submit" ><a href="home.html">Singup</a></button>
+        </form>
+        <p>Already have an account !<a href="login.html">Login account</a></p>
+        <div id="social-signup">
+            <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1425640059%3A1709819189110071&theme=glif" target="_blank">Sign up with Google</a><br><br>
+            <a href="https://www.facebook.com/" target="_blank">Sign up with Facebook</a>
+        </div>
+       <script src="create.js"></script>
+    </main>
+</body>
+</html>
+ 5
